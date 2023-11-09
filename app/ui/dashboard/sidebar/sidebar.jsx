@@ -3,6 +3,7 @@ import styles from "../sidebar/sidebar.module.css";
 import menuItems from "./menuItem";
 import MenuLink from "./menuLink/menuLlink";
 import Image from "next/image";
+import { MdLogout } from "react-icons/md";
 import noavatart from "./../../../../public/noavatar.png";
 
 const Sidebar = () => {
@@ -32,6 +33,10 @@ const Sidebar = () => {
           </li>
         ))}
       </ul>
+      <button className={styles.logout}>
+        <MdLogout />
+        Logout
+      </button>
     </div>
   );
 };
