@@ -1,0 +1,56 @@
+.container {
+  position: fixed;
+  gap: 10px;
+}
+.bgContent {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  height: 50%;
+}
+.item {
+  background: linear-gradient(to top, #182237, #253352);
+  position: relative;
+  padding: 15px 18px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.bgimg {
+  object-fit: contain;
+  opacity: 0.2;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.textTitle {
+  font-size: 18px;
+  font-weight: 500;
+}
+.textSecTitle {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--textSoft);
+}
+.textspan {
+  font-size: 10px;
+  color: var(--textSoft);
+}
+.textpara {
+  font-size: 14px;
+  font-weight: 300;
+}
+.button {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: #5d57c9;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  gap: 5px;
+  width: max-content;
+  cursor: pointer;
+}
