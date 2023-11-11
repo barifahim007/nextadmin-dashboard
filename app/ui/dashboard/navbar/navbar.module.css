@@ -31,6 +31,7 @@
   padding: 10px;
   font-size: 14px;
   font-weight: bold;
+  outline: none;
 }
 .icons {
   display: flex;
