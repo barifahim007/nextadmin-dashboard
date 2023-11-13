@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "@/app/ui/dashboard/users/users.module.css";
-import Search from "@/app/ui/dashboard/search/Search";
+import styles from "../../ui/dashboard/users/users.module.css";
+import Search from "../../ui/dashboard/search/Search";
 import Link from "next/link";
 import Image from "next/image";
 import Paginations from "../paginations/paginations";
@@ -45,7 +45,7 @@ const UserPage = () => {
             <td>active</td>
             <td>
               <div className={styles.buttons}>
-                <Link href="/">
+                <Link href="/dashboard/users/test">
                   <button className={`${styles.button} ${styles.view}`}>
                     view
                   </button>
@@ -75,7 +75,7 @@ const UserPage = () => {
             <td>active</td>
             <td>
               <div className={styles.buttons}>
-                <Link href="/">
+                <Link href="/dashboard/users/test">
                   <button className={`${styles.button} ${styles.view}`}>
                     view
                   </button>
@@ -105,7 +105,7 @@ const UserPage = () => {
             <td>active</td>
             <td>
               <div className={styles.buttons}>
-                <Link href="/">
+                <Link href="/dashboard/users/test">
                   <button className={`${styles.button} ${styles.view}`}>
                     view
                   </button>
