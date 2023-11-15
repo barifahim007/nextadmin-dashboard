@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import styles from "@/app/ui/dashboard/products/products.module.css";
-import Search from "@/app/ui/dashboard/search/Search";
+import styles from "../../ui/dashboard/products/products.module.css";
+import Search from "../../ui/dashboard/search/Search";
 import Paginations from "../paginations/paginations";
 
 const ProductPage = () => {
@@ -45,7 +45,7 @@ const ProductPage = () => {
             <td>inStock</td>
             <td>
               <div className={styles.buttons}>
-                <Link href="/">
+                <Link href="/dashboard/products/test">
                   <button className={`${styles.button} ${styles.view}`}>
                     view
                   </button>
@@ -75,7 +75,7 @@ const ProductPage = () => {
             <td>inStock</td>
             <td>
               <div className={styles.buttons}>
-                <Link href="/">
+                <Link href="/dashboard/products/test">
                   <button className={`${styles.button} ${styles.view}`}>
                     view
                   </button>
@@ -105,7 +105,7 @@ const ProductPage = () => {
             <td>inStock</td>
             <td>
               <div className={styles.buttons}>
-                <Link href="/">
+                <Link href="/dashboard/products/test">
                   <button className={`${styles.button} ${styles.view}`}>
                     view
                   </button>

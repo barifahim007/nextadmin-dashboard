@@ -14,7 +14,7 @@ const AddProducts = () => {
         </select>
         <input type="number" name="price" placeholder="price" required />
         <input type="number" name="stock" placeholder="stock" />
-        <input type="text" name="color" placeholder="size" />
+        <input type="text" name="color" placeholder="color" />
         <input type="text" name="size" placeholder="size" />
         <textarea
           name="desc"
